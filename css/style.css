@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/daniel-born-gpvzeM0Kmgw-unsplash.jpg);
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.logo h1 {
+    font-weight: 1000;
+    letter-spacing: 3px;
+}
+
+.logo h1:hover {
+    transform: scale(1.3);
+    transition: 0.5s ease;
+}
+
+.menu a{
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav .register {
+    border: 2px solid coral;
+    padding: 2px 5px;
+    border-radius: 5px;
+    background-color: coral;
+}
+
+nav .register:hover {
+    border: 2px solid coral;
+    background-color: transparent;
+}
+
+main {
+    position: absolute;
+    color: #d1d1d1;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+main span {
+    letter-spacing: 3px;
+}
+
+main h1 {
+    font-size: 3rem;
+}
+
+main a {
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    background-color: coral;
+    letter-spacing: 4px;
+    transition: 0.4s;
+}
+
+main a:hover {
+    border: 1px solid coral;
+    background: transparent;
+}
+
